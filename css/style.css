@@ -1,7 +1,8 @@
 /* fonts import */
 @import url("../fonts/octin_sports_rg.ttf");
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@800&display=swap');
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
   color: #0c0c0c;
   background-color: #ffffff;
   overflow-x: hidden;
@@ -223,7 +224,7 @@ a:focus {
           align-items: center;
   position: relative;
   min-height: 50vh;
-  padding: 100px 0;
+  padding: 75px 0;
 }
 
 .slider_section .row {
@@ -250,6 +251,7 @@ a:focus {
 
 .slider_section .detail-box p {
   margin: 25px 0;
+  font-size: 20px;
 }
 
 .slider_section .detail-box a {
@@ -525,7 +527,7 @@ a:focus {
 }
 
 .blog_section .box .detail-box p {
-  font-size: 15px;
+  font-size: 20px;
   direction: rtl;
 }
 
