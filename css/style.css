@@ -411,6 +411,7 @@ a:focus {
 .about_section .detail-box p {
   margin-top: 10px;
   margin-bottom: 35px;
+  font-size: 19px;
   text-align: right;
   direction: rtl;
   
