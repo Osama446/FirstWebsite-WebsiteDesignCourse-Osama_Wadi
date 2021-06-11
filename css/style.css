@@ -829,8 +829,10 @@ a:focus {
 }
 .login-section .btn{
   width: 9em;
-  
 }
+
+
+
 /* end of login section */
 
 /* footer section*/
@@ -850,4 +852,5 @@ a:focus {
 .footer_section p a {
   color: inherit;
 }
+
 /*# sourceMappingURL=style.css.map */
