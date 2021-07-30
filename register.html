@@ -8,10 +8,10 @@
   <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <!-- Site Metas -->
-  <link rel="icon" href="images/favicon.png" type="image/gif" />
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
+  <link rel="icon" href="images/favicon.png" type="image/gif"/>
+  <meta name="keywords" content="civilium_ju" />
+  <meta name="description" content="Civilium" />
+  <meta name="author" content="Osama" />
 
   <title>Civilium</title>
 
@@ -54,7 +54,6 @@
             <li class="nav-item">
               <a class="nav-link" href="about.html"> About Us</a>
             </li>
-
             <li class="nav-item">
               <a class="nav-link" href="blog.html">Courses</a>
             </li>
@@ -62,7 +61,7 @@
               <a class="nav-link" href="contact.html">Contact Us</a>
             </li>
           </ul>
-          <div class="quote_btn-container">
+          <div class="quote_btn-container data-bs-target">
             <a href="login.html">
               <span>
                 Login
@@ -81,50 +80,46 @@
   </header>
   <!-- end header section -->
 
-  <!-- contact section -->
-  <section class="contact_section  ">
-    <div class="container">
-      <div class="heading_container">
-        <h2>
-          Contact Us
-        </h2>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="form_container">
-            <form action="">
-              <div>
-                <input type="text" placeholder="Your Name" />
-              </div>
-              <div>
-                <input type="text" placeholder="Phone Number" />
-              </div>
-              <div>
-                <input type="email" placeholder="Email" />
-              </div>
-              <div>
-                <input type="text" class="message-box" placeholder="Message" />
-              </div>
-              <div class="btn_box">
-                <button>
-                  SEND
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="map_container">
-            <div class="map">
-              <div id="googleMap"></div>
+  <!-- Register section -->
+    
+  <div class="register-section container-fluid container">
+    <!-- <form class="login-padding layout_padding" action="./php/verify.php" method="POST"> -->
+    <form class="login-padding layout_padding">
+          <div class="container login-container ">
+            <h1 class="h1">Register</h1>
+             <div class="username-input input-group input-group-lg">
+                <span class="input-group-text" id="inputGroup-sizing-lg">Username</span>
+                 <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" name="username">
             </div>
-          </div>
+              <br>
+        <div class="password-input input-group input-group-lg ">
+          <span class="input-group-text" id="inputGroup-sizing-lg">Password</span>
+          <input type="password" name="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
         </div>
-      </div>
-    </div>
-  </section>
-  <!-- end contact section -->
+        <br>
+        <div class="password-input input-group input-group-lg">
+            <span class="input-group-text" id="inputGroup-sizing-lg">Re-password</span>
+            <input type="password" name="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+          </div>
+          <br>
+        <div class="password-input input-group input-group-lg ">
+            <span class="input-group-text justify-content-center" id="inputGroup-sizing-lg">Email</span>
+            <input type="email" name="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+          </div>
+      
+         <br>
 
+        <center>
+            <button type="submit" class="btn btn-outline-primary">
+                Register
+            </button>
+        </center>
+        </div>
+    
+     </form>
+    </div>
+
+  <!-- end Register section -->
 
   <!-- info section -->
 
@@ -144,18 +139,19 @@
                   </a>
                 </div>
                 <div class="col-md-5">
-                  <a href="#" class="link-box">
+                  
+                  <a href="tel:+962 788374808" class="link-box">
                     <i class="fa fa-phone" aria-hidden="true"></i>
                     <span>
-                      Call +962 788374808
+                        Call +962 788374808
                     </span>
                   </a>
                 </div>
-                <div class="col-md-4">
-                  <a href="#" class="link-box">
+                <div class="col-md-4"> 
+                  <a href="mailto:Civilium@gmail.com" class="link-box">
                     <i class="fa fa-envelope" aria-hidden="true"></i>
                     <span>
-                      Civilium@gmail.com
+                        Civilium@gmail.com
                     </span>
                   </a>
                 </div>
@@ -203,9 +199,9 @@
   <!-- footer section -->
   <footer class="footer_section">
     <div class="container">
-      <p>
-        &copy; <span id="displayYear"></span> All Rights Reserved for Osama Wadi
-      </p>
+        <p>
+            &copy; <span id="displayYear"></span> All Rights Reserved for Osama Wadi
+          </p>
     </div>
   </footer>
   <!-- footer section -->
